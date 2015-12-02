@@ -19,7 +19,7 @@ namespace Overheads
             if (this.DoHandle)
             {
                 //Handling the exception within the UnhandledExcpeiton handler.
-                MessageBox.Show(e.Exception.Message, "Exception Caught", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Exception Caught: " + e.Exception.Message, "Exception Caught", MessageBoxButton.OK, MessageBoxImage.Error);
                 e.Handled = true;
             }
             else

@@ -106,7 +106,6 @@
     <Compile Include="IShell.cs" />
     <Compile Include="Helpers\KeyboardHelper.cs" />
     <Compile Include="PrintableDocuments.cs" />
-    <Compile Include="Settings.cs" />
     <Compile Include="ShellView.xaml.cs">
       <DependentUpon>ShellView.xaml</DependentUpon>
     </Compile>
